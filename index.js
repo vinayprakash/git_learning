@@ -67,3 +67,36 @@
 // }
 // banglore.printcities(); 
 // /newline
+
+// Destructuring in ES6
+// let routine = {
+//   morning : "wakeUp",
+//   Noon : "Eat",
+//   Evening : "Snacks",
+//   Night : ['dinner', 'Sleep']
+// }
+
+// let {morning, Evening} = routine;
+
+// alert(`${ morning}, for  ${ Evening}`);
+
+
+
+//destructuring with function arguments and arrow functions
+
+// let uniStudent = ({name , job}) => {
+//   console.log(`${name} is a ${job}`);
+// }
+
+// uniStudent({
+//   name : "vinay",
+//   job : "Engineer"
+// }
+// );
+
+// destructing with an array
+let cars = ['Xuv','Harrier','fortuner'];
+[mahindra,tata,toyota]=cars;
+alert(tata + '  '+ toyota);
+console.log(mahindra,toyota);
+
