@@ -66,7 +66,4 @@
 
 // }
 // banglore.printcities(); 
-
-
-
-// testting git 
+// /newline
